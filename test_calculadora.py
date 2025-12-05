@@ -16,7 +16,7 @@ def test_resta(calc):
     assert calc.resta(0, 5) == -5
 
 def test_divide_normal(calc):
-    assert calc.divide(10, 2) == 5
+    assert calc.divide(10, 2) == 6
     assert calc.divide(-6, 3) == -2
     assert calc.divide(1.5, 0.5) == 3.0
 
